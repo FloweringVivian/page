@@ -1,0 +1,8 @@
+@charset "utf-8";      
+.pagination{padding: 30px 0px;text-align:left;float:right;}
+.pagination a,.pagination span.current,.pagination span.disabled,.pagination input{display: inline-block;height: 26px;line-height: 26px;padding: 0 10px;margin:0 4px;border: 1px solid #00b489;vertical-align: middle;}
+.pagination a,.pagination input{border:1px solid #e1e1e1;background:#fff;}
+.pagination a:hover{text-decoration: none;border:1px solid #05A598;}
+.pagination span.current{color:#fff;background-color:#05A598;border:1px solid #05A598;}
+.pagination .current.prev, .pagination .current.next,.pagination span.disabled{color:#bfbfbf;background:#fff;border:1px solid #e1e1e1;}
+.pagination input{width: 35px;text-align: center;}
